@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+            <div class="column">
+                <div class="number" id="num1">1</div>
+                <table>
+                    <tr>
+                        <td>
+                            Font-size:      
+                        </td>
+                        <td>
+                            <input type="text" id="font_size" class="input_text">
+                        </td>
+                        <td>
+                            <select id="select1"> 
+                                <option value="px">px</option> 
+                                <option value="pt">pt</option> 
+                                <option value="em">em</option>
+                                <option value="em">in</option> 
+                                <option value="em">cm</option>
+                                <option value="em">mm</option> 
+                            </select> 
+                        </td>
+                        <td>
+                            <input type="button" name="cngSize" value="Change value">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Margin:
+                        </td>
+                        <td>
+                            <input type="text" id="margin" class="input_text">
+                        </td>
+                        <td>
+                            <select id="select2"> 
+                                <option value="px">px</option> 
+                                <option value="pt">pt</option> 
+                                <option value="em">em</option>
+                                <option value="em">in</option> 
+                                <option value="em">cm</option>
+                                <option value="em">mm</option>  
+                            </select>
+                        </td>
+                        <td>
+                            <input type="button" name="margin" value="Change value"/>
+                        </td>
+                    </tr>
+                </table>
+                
+                <p>30px is initial size of the number.</p>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
